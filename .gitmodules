@@ -1,3 +1,4 @@
 [submodule "qa"]
 	path = qa
 	url = https://github.com/zufall-labs/qa
+	ignore = all

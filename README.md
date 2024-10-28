@@ -2,8 +2,6 @@
     <img src="https://raw.githubusercontent.com/zufall-labs/.github/main/profile/zufall-banner.png" alt="Helica" width="600" />
 </div>
 
-<br />
-
 <h1 align="center">Nullpunkt</h1>
 
 <div align="center">⏳ Nullpunkt is a language agnostic project template for Zufall Labs repositories</div>
@@ -13,10 +11,10 @@
 <div align="center">
     <a href="https://github.com/zufall-labs/qa">
         <img src="https://img.shields.io/badge/QA%20Version-
-@5f3cec7-5ed9c7?style=for-the-badge" alt="Code Style: XO">
+5f3cec7-5ed9c7?style=for-the-badge" alt="Quality Assurance Version">
     </a>
     <a href="https://github.com/zufall-labs/nullpunkt/blob/main/LICENSE">
-        <img src="https://img.shields.io/badge/license-AGP--3.0-5ed9c7?style=for-the-badge" alt="MIT License">
+        <img src="https://img.shields.io/badge/license-AGPL--3.0-5ed9c7?style=for-the-badge" alt="AGPL-3.0 License">
     </a>
 </div>
 

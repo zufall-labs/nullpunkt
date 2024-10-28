@@ -9,10 +9,6 @@
 <br />
 
 <div align="center">
-    <a href="https://github.com/zufall-labs/qa">
-        <img src="https://img.shields.io/badge/QA%20Version-
-5f3cec7-5ed9c7?style=for-the-badge" alt="Quality Assurance Version">
-    </a>
     <a href="https://github.com/zufall-labs/nullpunkt/blob/main/LICENSE">
         <img src="https://img.shields.io/badge/license-AGPL--3.0-5ed9c7?style=for-the-badge" alt="AGPL-3.0 License">
     </a>

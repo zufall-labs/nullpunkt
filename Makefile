@@ -11,8 +11,8 @@ create-config:
 	@echo "Configuration file .zflbs created with repository name: $(REPO_NAME)"
 
 setup-hooks: create-config
-	chmod -f +x ./qa/scripts/setup-hooks.sh || true
-	QA_DIR=$$(pwd)/qa ./qa/scripts/setup-hooks.sh
+	chmod -f +x ./qa/scripts/setup-hooks || true
+	QA_DIR=$$(pwd)/qa ./qa/scripts/setup-hooks
 
 show-config:
 	@if [ -f .zflbs ]; then \

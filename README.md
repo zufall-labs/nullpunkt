@@ -37,20 +37,25 @@
 ### Troubleshooting
 
 If you need to change the project name later:
+
 ```bash
 make setup-hooks REPO_NAME=new-project-name
 ```
 
 If you want to check your current configuration:
+
 ```bash
 make show-config
 ```
 
-Note: The `.zflbs` configuration file is git-ignored and local to your machine. If you're working with multiple developers, each developer should run the setup-hooks command on their local machine or fill in the `.zflbs.example` file with the appropriate information.
+Note: The `.zflbs` configuration file is git-ignored and local to your machine. If you're working with multiple
+developers, each developer should run the setup-hooks command on their local machine or fill in the `.zflbs.example`
+file with the appropriate information.
 
 ## Updating the QA Submodule
 
-When new changes are pushed to Quality Assurance, you can update your local project to use the latest QA configurations and hooks:
+When new changes are pushed to Quality Assurance, you can update your local project to use the latest QA configurations
+and hooks:
 
 1. Update the submodule to the latest version:
    ```bash
@@ -61,7 +66,7 @@ When new changes are pushed to Quality Assurance, you can update your local proj
    ```bash
    make setup-hooks REPO_NAME=$(basename $(pwd))
    ```
-   Note: `$(basename $(pwd))` automatically uses your current directory name as the repo name. 
+   Note: `$(basename $(pwd))` automatically uses your current directory name as the repo name.
    You can also explicitly specify the name: `make setup-hooks REPO_NAME=my-project`
 
 3. Commit the submodule update:
@@ -72,7 +77,9 @@ When new changes are pushed to Quality Assurance, you can update your local proj
 
 ### For Team Members
 
-If you pull changes and notice that the QA submodule has been updated (you'll see a change in the qa/ directory), you should run:
+If you pull changes and notice that the QA submodule has been updated (you'll see a change in the qa/ directory), you
+should run:
+
 ```bash
 git submodule update --init --recursive
 make setup-hooks REPO_NAME=$(basename $(pwd))

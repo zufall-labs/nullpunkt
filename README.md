@@ -18,7 +18,7 @@
 
 1. Clone this template repository and give it your project name:
    ```bash
-   git clone --recursive <project url>
+   git clone --recurse-submodules <project url>
    cd my-new-project
    ```
 
